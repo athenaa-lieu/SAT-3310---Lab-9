@@ -36,7 +36,7 @@ $adapter.Fill($dataSet)
 # Results
 
 # Display the results
-$results = $dataSet
+$results = $dataSet.Tables[0]
 
 Write-Output $results
 
