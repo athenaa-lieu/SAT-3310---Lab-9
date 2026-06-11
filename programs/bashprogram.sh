@@ -36,5 +36,5 @@ count:
 sqlite> SELECT manuf, COUNT(*) FROM clients GROUP BY manuf ORDER
 BY COUNT(*);
 
-3.3 Q What is the average altitude of Apple Access Point devices?
+3.3 Q What is the average altitude of Apple Access Point devices? 216.063690238095
 Note: The data for access points is in the "wireless" table, not the "clients" table.
