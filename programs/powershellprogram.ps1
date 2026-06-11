@@ -85,6 +85,7 @@ If this works - skip ahead to Section 8.
 If you cannot run the sqlcmd, you will need to install sqlcmd from:
 https://go.microsoft.com/fwlink/?linkid=2082790
 try: https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver17
+try: https://aka.ms/vs/17/release/vc_redist.x64.exe
 Restart your computer after installing sqlCMD
 
 8 SQL Testing - PowerShell
