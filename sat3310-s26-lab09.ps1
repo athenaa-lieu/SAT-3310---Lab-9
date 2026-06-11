@@ -1,7 +1,10 @@
 # SAT 3310 - Lab 9
 # Created by Athena Lieu (xlieu@mtu.edu)
 # Date: June 11th, 2026
-# Comments:
+# Comments: This lab demonstrates how to connect to a SQL database using PowerShell,
+# execute a query, and display the results.
+# It assumes that you have already set up the SQL Express LocalDB
+# and imported the necessary data into a database named "Wireless".
 
 # Variables
 
@@ -38,6 +41,7 @@ $adapter.Fill($dataSet)
 # Display the results
 $results = $dataSet.Tables[0]
 
+# Output the results to the console
 Write-Output $results
 
 # Close SQL Connection
