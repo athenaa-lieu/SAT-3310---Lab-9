@@ -16,7 +16,7 @@ databasefile="wireless.dbl"
 
 # SQL Statement
 
-sqlstatement="SELECT manuf, AVG(GPSBestAlt) FROM wireless WHERE manuf='Apple';"
+sqlstatement="SELECT manuf, AVG(GPSBestAlt), COUNT(*) FROM wireless WHERE manuf='Apple';"
 
 # Main
 
