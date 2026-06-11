@@ -20,8 +20,7 @@ http://pages.mtu.edu/~toarney/sat3310/lab14/SqlLocalDB.msi
 Note: you may need to reboot
 
 7.1.2 Start the SQL Express Engine
-https://www.mssqltips.com/sqlservertip/2694/getting-started-
-with-sql-server-2012-express-localdb/
+https://www.mssqltips.com/sqlservertip/2694/getting-started-with-sql-server-2012-express-localdb/
 From a command prompt:
 CMD
 sqllocaldb create “sat3310”
@@ -151,11 +150,11 @@ SELECT * FROM clients;
 go
 
 8.4.5 Select only the Apple wireless clients
-SELECT * FROM clients WHERE manuf=’Apple’;
+SELECT * FROM clients WHERE manuf='Apple';
 go
 
 8.4.6 Count the Apple wireless clients
-SELECT COUNT(*) FROM clients WHERE manuf="Apple";
+SELECT COUNT(*) FROM clients WHERE manuf='Apple';
 go
 
 8.4.7 Select the manufacturer and counts of clients, then group by the manufacturer, and sort

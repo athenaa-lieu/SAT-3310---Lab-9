@@ -5,7 +5,7 @@
 
 # Variables
 
-$serverName = "(localdb)\sat3310"
+$serverName = "(localdb)\MSSQLLocalDB"
 $databaseName = "Wireless"
 
 # SQL Commands
