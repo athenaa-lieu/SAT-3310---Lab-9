@@ -32,6 +32,7 @@ sqllocaldb info “sat3310”
 Download SQL Server Management Studio (SSMS)
 Note: This can take a long time
 https://msdn.microsoft.com/en-us/library/mt238290.aspx
+try: https://learn.microsoft.com/en-us/ssms/install/install
 
 7.2.1 Install the SSMS
 Note: This can take a long time
